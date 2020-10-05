@@ -1,4 +1,4 @@
-## Your Name
+## Lauren Chen
 
 Welcome to my website!
 
