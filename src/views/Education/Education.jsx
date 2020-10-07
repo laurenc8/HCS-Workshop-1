@@ -1,5 +1,5 @@
 import React from "react";
-import "./Experience.css";
+import "./Education.css";
 
 function TimelineItem(props) {
   return (
@@ -14,23 +14,19 @@ function TimelineItem(props) {
   )
 }
 
-export default function ExperienceScreen() {
+export default function EducationScreen() {
   const [activeTitle, setActiveTitle] = React.useState('BLANK');
 
   return (
     <div className="screen-background">
-      <div className="experience-background">
+      <div className="education-background">
         <div className="timeline-background">
           <TimelineItem
-            title="Radcliffe Research Partner"
+            title="Harvard University"
             setActiveTitle={setActiveTitle}
           ></TimelineItem>
           <TimelineItem
-            title="Research Science Institute"
-            setActiveTitle={setActiveTitle}
-          ></TimelineItem>
-          <TimelineItem
-            title="Ross Mathematics Program"
+            title="Dutch Fork High School"
             setActiveTitle={setActiveTitle}
           ></TimelineItem>
         </div>

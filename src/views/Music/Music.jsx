@@ -1,5 +1,5 @@
 import React from "react";
-import "./Experience.css";
+import "./Music.css";
 
 function TimelineItem(props) {
   return (
@@ -14,23 +14,19 @@ function TimelineItem(props) {
   )
 }
 
-export default function ExperienceScreen() {
+export default function MusicScreen() {
   const [activeTitle, setActiveTitle] = React.useState('BLANK');
 
   return (
     <div className="screen-background">
-      <div className="experience-background">
+      <div className="music-background">
         <div className="timeline-background">
           <TimelineItem
-            title="Radcliffe Research Partner"
+            title="Piano"
             setActiveTitle={setActiveTitle}
           ></TimelineItem>
           <TimelineItem
-            title="Research Science Institute"
-            setActiveTitle={setActiveTitle}
-          ></TimelineItem>
-          <TimelineItem
-            title="Ross Mathematics Program"
+            title="Violin"
             setActiveTitle={setActiveTitle}
           ></TimelineItem>
         </div>
